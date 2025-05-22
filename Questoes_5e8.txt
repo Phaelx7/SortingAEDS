@@ -1,0 +1,33 @@
+Questão 5-
+A) Se o pivô escolhido fosse o primeiro elemento, como ficaria o primeiro particionamento?
+Vetor original: {9, 7, 10, 8, 6, 2, 4, 3, 5, 1}
+
+Pivô: 9 (primeiro da lista)
+
+Passo do particionamento:
+Colocamos todos os menores que 9 de um lado, e os maiores do outro.
+
+Resultado do primeiro particionamento:
+Algo como: {7, 8, 6, 2, 4, 3, 5, 1, 9, 10}
+(O 9 vai para a posição certa, no meio dos menores e maiores)
+
+B) Para o vetor já ordenado {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, quantas chamadas recursivas são feitas?
+Se o pivô for sempre o primeiro número, ele só separa 1 número por vez.
+
+Isso faz o QuickSort repetir 10 vezes.
+
+Resposta: 10 chamadas recursivas.
+
+C) Qual a complexidade de tempo do Quicksort no pior caso? Por quê?
+Resposta: O pior caso é O(n²).
+
+Por quê?
+Porque se o pivô for mal escolhido (sempre o menor ou o maior), o algoritmo vai trabalhar muito mais, fazendo muitas comparações e chamadas.
+
+Questão 8- 
+As principais desvantagens da alocação estática são:
+
+-Desperdício de memória quando o espaço reservado não é totalmente utilizado.
+-Falta de flexibilidade, pois o tamanho da estrutura é fixo e definido antes da execução.
+-Dificuldade de lidar com quantidades variáveis de dados em tempo de execução.
+-Possibilidade de estouro de memória se os dados excederem o espaço reservado.
